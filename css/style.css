@@ -2,5 +2,36 @@ body{
     background: chartreuse;
 }
 header{
-
+    ul{
+        color: red;
+        text-align: center;
+        text-transform: capitalize;
+    }
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    margin: 0 10px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    &:hover{
+        color: yellow;
+    }
+}
+main{
+    width: 800px;
+    margin: 0 auto;
+}
+main img{
+    max-width: 100%;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 24px;
 }
