@@ -8,10 +8,7 @@ header{
         text-transform: capitalize;
     }
 @media(max-width:600px) 
-    h2{
-        font-size: 40px;
-    }       
-}
+    }      
 header img{
     max-width: 100%;
 }
