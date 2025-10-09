@@ -8,7 +8,7 @@ header{
         text-transform: capitalize;
     }
 @media(max-width:600px) 
-    }      
+     }     
 header img{
     max-width: 100%;
 }
